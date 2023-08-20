@@ -1,11 +1,13 @@
 /* Mixin in scss */
 
 @mixin marginBody {
-	margin: 0px 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 @mixin Div {
-	margin: 0px 15px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 body {
