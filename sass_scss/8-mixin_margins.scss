@@ -1,0 +1,17 @@
+/* Mixin in scss */
+
+@mixin marginBody {
+	margin: 0px 10px;
+}
+
+@mixin Div {
+	margin: 0px 15px;
+}
+
+body {
+	@include marginBody;
+}
+
+div {
+	@include Div;
+}
