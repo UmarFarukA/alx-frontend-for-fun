@@ -1,0 +1,7 @@
+/* Looping with @for */
+
+@for $x from 1 through 5 {
+	h#{$x} {
+		font-size: {$x}+px;
+	}
+}
