@@ -1,0 +1,12 @@
+/* Nested class in scss */
+
+$textColorBody: #3D3D3D;
+$textColorElements: #FF0000;
+
+body {
+	color: $textColorBody;
+
+	.red {
+		color: $textColorElements;
+	}
+}
